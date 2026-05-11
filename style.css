@@ -1,6 +1,4 @@
-/* ══════════════════════════════════════════
-   RESET
-══════════════════════════════════════════ */
+/* RESET */
 * {
   margin: 0;
   padding: 0;
@@ -22,9 +20,7 @@ a { text-decoration: none; color: inherit; }
   padding: 0 2rem;
 }
 
-/* ══════════════════════════════════════════
-   ANIMACOES KEYFRAMES
-══════════════════════════════════════════ */
+/* ANIMACOES KEYFRAMES */
 
 @keyframes fadeIn {
   from { opacity: 0; }
@@ -100,9 +96,7 @@ a { text-decoration: none; color: inherit; }
   50%       { box-shadow: 0 0 0 8px rgba(255,255,255,0); }
 }
 
-/* ══════════════════════════════════════════
-   HEADER
-══════════════════════════════════════════ */
+/* HEADER */
 
 header {
   background: #0d1b3e;
@@ -157,9 +151,7 @@ nav a:hover {
   transform: translateY(-2px);
 }
 
-/* ══════════════════════════════════════════
-   HERO
-══════════════════════════════════════════ */
+/* HERO */
 
 .hero {
   background: linear-gradient(135deg, #0d1b3e, #1a2f5e, #0d1b3e);
@@ -200,9 +192,7 @@ nav a:hover {
   flex-wrap: wrap;
 }
 
-/* ══════════════════════════════════════════
-   PHONE MOCKUP ANIMADO
-══════════════════════════════════════════ */
+/* PHONE MOCKUP ANIMADO */
 
 .phone-container {
   animation: slideRight 0.9s ease forwards, phoneFloat 4s ease-in-out infinite;
@@ -369,9 +359,7 @@ nav a:hover {
   animation: shutterPulse 2s ease-in-out infinite;
 }
 
-/* ══════════════════════════════════════════
-   BOTOES
-══════════════════════════════════════════ */
+/* BOTOES */
 
 .btn {
   padding: 0.75rem 1.6rem;
@@ -402,9 +390,7 @@ nav a:hover {
   box-shadow: 0 8px 20px rgba(59,143,232,0.2);
 }
 
-/* ══════════════════════════════════════════
-   SOBRE
-══════════════════════════════════════════ */
+/* SOBRE */
 
 .sobre {
   padding: 5rem 2rem;
@@ -464,9 +450,7 @@ nav a:hover {
 .card h3 { color: #0d1b3e; margin-bottom: 0.4rem; }
 .card p  { color: #64748b; font-size: 0.9rem; }
 
-/* ══════════════════════════════════════════
-   ACOES
-══════════════════════════════════════════ */
+/* ACOES*/
 
 .acoes {
   padding: 5rem 2rem;
@@ -510,9 +494,7 @@ nav a:hover {
 .acao-card h3 { color: #0d1b3e; margin-bottom: 0.4rem; }
 .acao-card p  { color: #64748b; font-size: 0.9rem; }
 
-/* ══════════════════════════════════════════
-   COMO FUNCIONA
-══════════════════════════════════════════ */
+/* COMO FUNCIONA*/
 
 .como-funciona {
   padding: 5rem 2rem;
@@ -584,9 +566,7 @@ nav a:hover {
   animation: pulse 2s ease-in-out infinite;
 }
 
-/* ══════════════════════════════════════════
-   CONTATO
-══════════════════════════════════════════ */
+/* CONTATO*/
 
 .contato {
   padding: 5rem 2rem;
@@ -630,9 +610,7 @@ nav a:hover {
 .formulario textarea { min-height: 120px; resize: vertical; }
 .formulario .btn { margin-top: 1rem; align-self: flex-start; }
 
-/* ══════════════════════════════════════════
-   FOOTER
-══════════════════════════════════════════ */
+/* FOOTER */
 
 footer {
   background: #0a1628;
