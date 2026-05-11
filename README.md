@@ -1,85 +1,100 @@
-# Sobre o projeto
+# 📱 Modo IA — Camera Inteligente JOVI
 
-O **Modo IA** e um modo nativo dentro da camera do JOVI com um mini menu interativo de acoes inteligentes. Igual ao menu de efeitos do iPhone no modo Retrato — so que ao inves de efeitos visuais, o usuario escolhe o que a IA vai fazer com a foto.
+> Projeto desenvolvido para o **Challenge JOVI Smartphone 2026** — FIAP  
+> Sprint 2 — Front-End Design
+
+## 🔗 Site publicado
+
+**[https://sprint2-front-end-1-espv.vercel.app/](https://sprint2-front-end-1-espv.vercel.app/)**
 
 ---
 
-# Acoes do Modo IA
+## 💡 Sobre o projeto
 
-| Acao | O que faz |
-| --- | --- |
-| Fazer Resumo | Resume o conteudo da foto em topicos claros |
-| Extrair Texto | OCR offline transforma imagem em texto editavel |
-| Explicar Conteudo | IA explica o que esta escrito de forma simples |
+O **Modo IA** é um modo nativo dentro da câmera do JOVI com um mini menu interativo de ações inteligentes. Igual ao menu de efeitos do iPhone no modo Retrato — só que ao invés de efeitos visuais, o usuário escolhe o que a IA vai fazer com a foto.
+
+---
+
+## ⚡ Ações do Modo IA
+
+| Ação | O que faz |
+|---|---|
+| Fazer Resumo | Resume o conteúdo da foto em tópicos claros |
+| Extrair Texto | OCR offline transforma imagem em texto editável |
+| Explicar Conteúdo | IA explica o que está escrito de forma simples |
 | Traduzir | Traduz o texto da foto para qualquer idioma |
-| Gerar Perguntas | Cria questoes de revisao com base no conteudo |
-| Identificar Formula | Reconhece e explica formulas matematicas |
+| Gerar Perguntas | Cria questões de revisão com base no conteúdo |
+| Identificar Fórmula | Reconhece e explica fórmulas matemáticas |
 
 ---
 
-# Estrutura do projeto
+## 🗂️ Estrutura do projeto
 
 ```
 modo-ia-jovi/
-├── index.html        ← Pagina principal
-├── style.css         ← Estilizacao e animacoes
-├── README.md         ← Documentacao do projeto
+├── index.html        ← Página principal
+├── style.css         ← Estilização e animações
+├── README.md         ← Documentação do projeto
 └── INTEGRANTES.TXT   ← Integrantes do grupo
 ```
 
 ---
 
-# Como rodar
+## 🚀 Como rodar localmente
 
 ```bash
-git clone https://github.com/seu-usuario/modo-ia-jovi.git
-cd modo-ia-jovi
+git clone https://github.com/enzobiagiotti/Sprint2-front-end-1ESPV.git
+cd Sprint2-front-end-1ESPV
 open index.html
 ```
 
-Ou simplesmente baixe os arquivos e abra o `index.html` no navegador. Nao precisa de servidor ou instalacao.
+Ou simplesmente baixe os arquivos e abra o `index.html` no navegador. Não precisa de servidor ou instalação.
 
 ---
 
-# Tecnologias utilizadas
+## 🎨 Tecnologias utilizadas
 
-- **HTML5** semantico — `header`, `section`, `article`, `nav`, `footer`
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
+
+- **HTML5** semântico — `header`, `section`, `article`, `nav`, `footer`
 - **CSS3** com Flexbox para posicionamento
-- **Animacoes CSS** — `@keyframes`, `transition`, `transform`
-- Sem frameworks, sem JavaScript, sem dependencias externas
+- **Animações CSS** — `@keyframes`, `transition`, `transform`
+- Sem frameworks, sem JavaScript, sem dependências externas
 
 ---
 
-# Requisitos atendidos
+## ✅ Requisitos atendidos
 
 | Requisito | Pontos | Status |
-| --- | --- | --- |
-| Layout Dinamico e Moderno | 30 pts | Concluido |
-| HTML Semantico | 50 pts | Concluido |
-| Flexbox Model | 20 pts | Concluido |
+|---|---|---|
+| Layout Dinâmico e Moderno | 30 pts | ✅ |
+| HTML Semântico | 50 pts | ✅ |
+| Flexbox Model | 20 pts | ✅ |
 
 ---
 
-# Animacoes CSS implementadas
+## 🎬 Animações CSS implementadas
 
 - `phoneFloat` — Phone flutuando suavemente no Hero
 - `phoneBorder` — Brilho pulsando na borda do phone
 - `scanLine` — Linha de scanner subindo na tela
-- `cornerBlink` — Cantos azuis piscando (deteccao de documento)
-- `chipPop` — Chip Documento detectado aparecendo em loop
-- `shutterPulse` — Pulso no botao de captura
+- `cornerBlink` — Cantos azuis piscando (detecção de documento)
+- `chipPop` — Chip "Documento detectado" aparecendo em loop
+- `shutterPulse` — Pulso no botão de captura
 - `gradientShift` — Gradiente animado no fundo do Hero
 - `slideLeft / slideRight` — Entrada dos elementos ao carregar
 - `cardEnter` — Cards entrando em cascata
-- `fadeUp` — Titulos e secoes subindo suavemente
-- `hover` — Elevacao e sombra nos cards ao passar o mouse
+- `fadeUp` — Títulos e seções subindo suavemente
+- `hover` — Elevação e sombra nos cards ao passar o mouse
 
 ---
 
-# Integrantes
+## 👥 Integrantes
 
 | Nome | RM |
-| --- | --- |
+|---|---|
 | Leonardo Farias Novaes Aguiar | RM570991 |
 | Enzo Dos Santos Galbiatti Biagiotti | RM568894 |
 | Paulo Ricardo Siqueira de Carlos | RM569992 |
@@ -87,9 +102,9 @@ Ou simplesmente baixe os arquivos e abra o `index.html` no navegador. Nao precis
 
 ---
 
-# Informacoes academicas
+## 🏫 Informações acadêmicas
 
-- **Instituicao:** FIAP
+- **Instituição:** FIAP
 - **Curso:** Engenharia de Software
 - **Disciplina:** Front-End Design
 - **Empresa parceira:** JOVI Smartphone (Vivo Mobile)
